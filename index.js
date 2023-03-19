@@ -57,4 +57,42 @@
 //----------------------3----------------------//
 
 //----------------------4----------------------//
+
+// function humanReadable(seconds) {
+//   let sec = seconds % 60;
+//   let min1 = Math.floor(seconds / 60);
+//   let hours = Math.floor(min1 / 60);
+//   let min2 = min1 % 60;
+//   let hoursstr = String(hours).padStart(2, "0");
+//   let minstr = String(min2).padStart(2, "0");
+//   let secstr = String(sec).padStart(2, "0");
+//   let time = [hoursstr, minstr, secstr].join(":");
+//   if (seconds > 359999) {
+//     time = "99:59:59";
+//   }
+//   return time;
+// }
+//console.log(humanReadable(110));
+
 //----------------------4----------------------//
+
+//----------------------5----------------------//
+// function solution(str) {
+//   let strArr = [...str];
+//   let Arr = [];
+//   for (let i = 0; i < strArr.length; i++) {
+//     let element = [];
+//     if (!(i % 2)) {
+//       element.push(strArr[i]);
+//       if (i + 1 === strArr.length) {
+//         element.push("_");
+//       } else {
+//         element.push(strArr[i + 1]);
+//       }
+//       Arr.push(element.join(""));
+//     }
+//   }
+//   return Arr;
+// }
+// console.log(solution("abcdefg"));
+//----------------------5----------------------//
