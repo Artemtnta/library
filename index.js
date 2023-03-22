@@ -96,3 +96,28 @@
 // }
 // console.log(solution("abcdefg"));
 //----------------------5----------------------//
+
+//----------------------6----------------------//
+// function solution(number) {
+//   let sum = 0;
+//   for (let i = 0; i < number; i++) {
+//     if (!(i % 3) || !(i % 5)) {
+//       sum = sum + i;
+//     }
+//   }
+//   return sum;
+// }
+//----------------------6----------------------//
+
+//----------------------7----------------------//
+function solution(string) {
+  str = [string.split("")];
+  for (const digit of str) {
+    if (digit === digit.toUpperCase()) {
+      str.splice(str.indexOf(digit), 0, "");
+    }
+  }
+  return str.join("");
+}
+
+//----------------------7----------------------//
