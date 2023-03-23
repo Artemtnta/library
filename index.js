@@ -110,14 +110,26 @@
 //----------------------6----------------------//
 
 //----------------------7----------------------//
-function solution(string) {
-  str = [string.split("")];
-  for (const digit of str) {
-    if (digit === digit.toUpperCase()) {
-      str.splice(str.indexOf(digit), 0, "");
-    }
-  }
-  return str.join("");
-}
-
+// function countSmileys(arr) {
+//   let counter = 0;
+//   for (const face of arr) {
+//     if (
+//       face === ":-)" ||
+//       face === ":-D" ||
+//       face === ":~)" ||
+//       face === ":~D" ||
+//       face === ";-)" ||
+//       face === ":-D" ||
+//       face === ":~)" ||
+//       face === ":-D" ||
+//       face === ":)" ||
+//       face === ":D" ||
+//       face === ";)" ||
+//       face === ";D"
+//     ) {
+//       counter = counter + 1;
+//     }
+//   }
+//   return counter;
+// }
 //----------------------7----------------------//
