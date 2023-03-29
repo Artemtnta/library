@@ -133,3 +133,21 @@
 //   return counter;
 // }
 //----------------------7----------------------//
+
+//----------------------8----------------------//
+function sumPairs(ints, s) {
+  let arr;
+  let pairs = [];
+  for (const nums of ints) {
+    let num1 = nums;
+    arr = ins.filter(function (num) {
+      return num !== num1;
+    });
+    for (const number of arr) {
+      if (number + num) {
+        pairs.push([]);
+      }
+    }
+  }
+}
+//----------------------8----------------------//
