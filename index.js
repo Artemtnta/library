@@ -135,19 +135,24 @@
 //----------------------7----------------------//
 
 //----------------------8----------------------//
-function sumPairs(ints, s) {
-  let arr;
-  let pairs = [];
-  for (const nums of ints) {
-    let num1 = nums;
-    arr = ins.filter(function (num) {
-      return num !== num1;
-    });
-    for (const number of arr) {
-      if (number + num) {
-        pairs.push([]);
-      }
-    }
-  }
-}
+// function sumTwoSmallestNumbers(numbers) {
+//   numbers.sort(function (a, b) {
+//     return a - b;
+//   });
+//   return numbers[0] + numbers[1];
+// }
 //----------------------8----------------------//
+
+//----------------------9----------------------//
+// const binaryArrayToNumber = (arr) => {
+//   return parseInt(arr.join(""), 2);
+// };
+//----------------------9----------------------//
+
+//----------------------10----------------------//
+// function highAndLow(numbers) {
+//   const arrNums = numbers.split(" ");
+//   arrNums.sort((a, b) => a - b);
+//   return `${arrNums.reverse()[0]} ${arrNums.reverse()[0]}`;
+// }
+//----------------------10----------------------//
