@@ -156,3 +156,62 @@
 //   return `${arrNums.reverse()[0]} ${arrNums.reverse()[0]}`;
 // }
 //----------------------10----------------------//
+
+//----------------------11----------------------//
+// function digitize(n) {
+//   return n
+//     .toString()
+//     .split("")
+//     .map((num) => +num)
+//     .reverse();
+// }
+//----------------------11----------------------//
+
+//----------------------12----------------------//
+// function getSum(a, b) {
+//   if (a === b) {
+//     return a;
+//   }
+//   let Sum = 0;
+//   let arr = [a, b];
+//   arr.sort((a, b) => a - b);
+//   while (arr[0] < arr[1] + 1) {
+//     Sum = Sum + arr[0];
+//     arr[0] = arr[0] + 1;
+//   }
+//   return Sum;
+// }
+//----------------------12----------------------//
+
+//----------------------13----------------------//
+// function opposite(number) {
+//   return number * -1;
+// }
+//----------------------13----------------------//
+
+//----------------------14----------------------//
+// function basicOp(operation, value1, value2) {
+//   let result;
+//   switch (operation) {
+//     case "+":
+//       result = value1 + value2;
+//       break;
+//     case "-":
+//       result = value1 - value2;
+//       break;
+//     case "*":
+//       result = value1 * value2;
+//       break;
+//     case "/":
+//       result = value1 / value2;
+//       break;
+//   }
+//   return result;
+// }
+//----------------------14----------------------//
+
+//----------------------15----------------------//
+function disemvowel(str) {
+  return str;
+}
+//----------------------15----------------------//
