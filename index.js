@@ -211,7 +211,19 @@
 //----------------------14----------------------//
 
 //----------------------15----------------------//
-function disemvowel(str) {
-  return str;
-}
+// function solution(str) {
+//   return str.split("").reverse().join("");
+// }
 //----------------------15----------------------//
+
+//----------------------16---------------------//
+function firstNonRepeatingLetter(s) {
+  for (const digit of s.split("")) {
+    let arrWithoutdigit = s.split("").splice(s.split("").indexOf(digit), 1);
+    if (!arrWithoutdigit.includes(digit)) {
+      return digit;
+    }
+  }
+}
+console.log(firstNonRepeatingLetter("stress"));
+//----------------------16---------------------//
