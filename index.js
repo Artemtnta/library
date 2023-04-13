@@ -217,13 +217,32 @@
 //----------------------15----------------------//
 
 //----------------------16---------------------//
-function firstNonRepeatingLetter(s) {
-  for (const digit of s.split("")) {
-    let arrWithoutdigit = s.split("").splice(s.split("").indexOf(digit), 1);
-    if (!arrWithoutdigit.includes(digit)) {
-      return digit;
-    }
-  }
-}
-console.log(firstNonRepeatingLetter("stress"));
+// function squareSum(numbers) {
+//   let a = 0;
+//   numbers.forEach((element) => {
+//     a = a + element * element;
+//   });
+//   return a;
+// }
+// console.log(squareSum([1, 3]));
 //----------------------16---------------------//
+
+//----------------------17---------------------//
+// const uniqueInOrder = function (iterable) {
+//   let arr = iterable;
+//   let arrCheck = arr;
+//   if (typeof arr === "bigint") {
+//     arr = bigInt(arr.toString().split(""));
+//   }
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === arr[i + 1]) {
+//       arr.splice(i + 1, 1);
+//     }
+//   }
+//   if (arr !== arrCheck) {
+//     uniqueInOrder(arr);
+//   }
+//   return arr;
+// };
+// console.log(uniqueInOrder("AAAAAAAABBBBBBBBBBBBaaaaabbbbb"));
+//----------------------17---------------------//
