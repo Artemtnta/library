@@ -246,3 +246,38 @@
 // };
 // console.log(uniqueInOrder("AAAAAAAABBBBBBBBBBBBaaaaabbbbb"));
 //----------------------17---------------------//
+
+//----------------------18---------------------//
+// function descendingOrder(n) {
+//   return Number(
+//     n
+//       .toString()
+//       .split("")
+//       .sort((a, b) => b - a)
+//       .join("")
+//   );
+// }
+// console.log(descendingOrder(5612));
+//----------------------18---------------------//
+
+//----------------------19---------------------//
+// var beeramid = function (bonus, price) {
+//   if (price == 0) {
+//     return Infinity;
+//   }
+//   if (bonus <= 0) {
+//     return 0;
+//   }
+//   let n = Math.floor(bonus / price);
+//   let levels = 0;
+//   for (let i = 1; n >= 0; i++) {
+//     if (n - i * i >= 0) {
+//       n = n - i * i;
+//       levels++;
+//     } else {
+//       return levels;
+//     }
+//   }
+// };
+// console.log(beeramid(14, 1));
+//----------------------19---------------------//
