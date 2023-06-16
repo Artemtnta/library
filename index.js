@@ -281,3 +281,21 @@
 // };
 // console.log(beeramid(14, 1));
 //----------------------19---------------------//
+
+//----------------------20---------------------//
+// function josephusSurvivor(n, k) {
+//   let arr = [];
+//   for (let i = 0; i < n; i++) {
+//     arr.push(i);
+//     }
+//     const finder = function (ar, k, c) {
+//         for (let b = 0; b < ar.length; b++) {
+//             const el = ar[i];
+//             if (b/k =) {
+
+//             }
+//         }
+//     }
+// }
+// console.log(josephusSurvivor(7, 3));
+//----------------------20---------------------//
